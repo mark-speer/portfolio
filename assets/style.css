@@ -6,7 +6,8 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 body {
   /* Box-model */
-  padding: 0;
+  
+  padding: 10px;
 
   /* Positioning */
   margin: 0;
@@ -18,7 +19,7 @@ body {
   color: #333;
 
   /* Visual */
-  background: #efeee7;
+  background: #ccebff;
 }
 
 header {
@@ -44,10 +45,11 @@ h1 {
 
 h2 {
   font-size: 24px;
+  
 }
 
 a {
-  color: #d21034;
+  color: #7a28ff;
 }
 
 .container {
@@ -58,25 +60,25 @@ a {
   margin: 0 auto;
 }
 
-#main-bio,
+main,
 #contact-info,
 #bio-image {
   float: left;
 }
 
-#main-bio {
-  width: 70%;
+main {
+  width: 65%;
 }
 
 #contact-info {
-  width: 30%;
+  width: 35%;
 }
 
-#bio-image {
+.bio-image {
   /* Box-model */
   width: 200px;
   height: 200px;
-
+  border: 5px solid #382a4d;
   /* Positioning */
 
   margin-right: 20px;
