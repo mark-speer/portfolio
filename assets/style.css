@@ -1,85 +1,46 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
+
+
+.name {
+  background-color: #59aaa5; 
+  padding: 10px;
+  color: white !important;
+}
+
+.r-align {
+  text-align: right !important;
+}
 
 body {
-  /* Box-model */
-  
-  padding: 10px;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #ccebff;
+  background-color: #cccccc;
 }
 
-header {
-  background: #d21034;
+.divide {
+  border-right: 1px solid #e2e2e2;
 }
 
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+.abm-hd {
+  border-bottom: 3px solid #e2e2e2;
 }
 
-h2 {
-  font-size: 24px;
-  
+.abm-box {
+  background-color: #f3f3f3;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 60%;
 }
 
-a {
-  color: #7a28ff;
-}
-
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  margin: 0 auto;
-}
-
-main,
-#contact-info,
-#bio-image {
+.photo {
   float: left;
+  padding: 15px;
 }
 
-main {
-  width: 65%;
+.fltrt {
+  float: right;
 }
 
-#contact-info {
-  width: 35%;
-}
-
-.bio-image {
-  /* Box-model */
-  width: 200px;
-  height: 200px;
-  border: 5px solid #382a4d;
-  /* Positioning */
-
-  margin-right: 20px;
+.pd {
+  padding: 5px;
+  border-top: 3px solid #e2e2e2;
 }
