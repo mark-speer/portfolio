@@ -37,10 +37,20 @@ body {
 }
 
 .fltrt {
-  float: right;
+  margin-right: 0px;
 }
 
 .pd {
   padding: 5px;
   border-top: 3px solid #e2e2e2;
+}
+
+@media screen and (max-width: 744px) {
+
+  .navbar {
+    background-color: #59aaa5 !important;
+  }
+  .name {
+    margin: auto;
+  }
 }
