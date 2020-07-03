@@ -1,9 +1,7 @@
 
 
 .name {
-  background-color: #59aaa5; 
   padding: 10px;
-  color: white !important;
 }
 
 .r-align {
@@ -19,7 +17,6 @@ body {
 }
 
 .abm-hd {
-  border-bottom: 3px solid #e2e2e2;
 }
 
 .abm-box {
@@ -37,7 +34,7 @@ body {
 }
 
 .fltrt {
-  margin-right: 0px;
+  margin: auto;
 }
 
 .pd {
@@ -45,11 +42,12 @@ body {
   border-top: 3px solid #e2e2e2;
 }
 
+.pd-body {
+  padding: 10px;
+}
+
 @media screen and (max-width: 744px) {
 
-  .navbar {
-    background-color: #59aaa5 !important;
-  }
   .name {
     margin: auto;
   }
