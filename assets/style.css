@@ -1,4 +1,11 @@
 
+.navbar {
+  background-color: rgb(208, 179, 255) !important;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .name {
   padding: 10px;
@@ -9,7 +16,10 @@
 }
 
 body {
-  background-color: #cccccc;
+  background-color: hsl(263, 70%, 29%);
+  padding-top:20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
 }
 
 .divide {
@@ -20,7 +30,7 @@ body {
 }
 
 .abm-box {
-  background-color: #f3f3f3;
+  background-color: #efddff !important;
   border: 1px solid rgb(228, 228, 228);
   border-radius: 5px;
   margin-top: 20px;
@@ -46,9 +56,18 @@ body {
   padding: 10px;
 }
 
+.contact-bx {
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 744px) {
 
   .name {
     margin: auto;
+  }
+  .divide {
+    border: none;
   }
 }
