@@ -8,7 +8,7 @@
   background: url('bg-image.jpg');
   background-position: center;
   background-size: cover;
-  height: 675px;
+  height: 100%;
   background-repeat: no-repeat;
   position: relative;
 }
