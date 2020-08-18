@@ -1,4 +1,35 @@
 
+.navbar {
+  background-color: #00a2ff !important;
+  border-bottom: 3px solid #A8C3B9;
+}
+
+.bg {
+  background: url('bg-image.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 675px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg2 {
+  background: url('bg-image.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 0px;
+}
+
+.text-hero {
+  color: #f3f3f3;
+  padding-top: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .name {
   padding: 10px;
@@ -8,12 +39,16 @@
   text-align: right !important;
 }
 
-body {
-  background-color: #cccccc;
-}
 
-.divide {
-  border-right: 1px solid #e2e2e2;
+footer {
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2b4250;
+  color: #fff;
+  border-top: 3px solid #A8C3B9;
 }
 
 .abm-hd {
@@ -24,17 +59,19 @@ body {
   border: 1px solid rgb(228, 228, 228);
   border-radius: 5px;
   margin-top: 20px;
-  margin-left: 5%;
-  width: 60%;
+  margin-left: 10%;
 }
 
 .photo {
   float: left;
   padding: 15px;
+  margin: 10px;
 }
 
 .fltrt {
   margin: auto;
+  overflow: hidden;
+  margin-right: 20px;
 }
 
 .pd {
