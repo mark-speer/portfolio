@@ -1,34 +1,33 @@
+body, html {
+  height: 100%;
+}
+
+
 
 .navbar {
   background-color: #00a2ff !important;
   border-bottom: 3px solid #A8C3B9;
+
 }
 
 .bg {
-  background: url('bg-image.jpg');
-  background-position: center;
+  background: url('bg-image.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
   background-repeat: no-repeat;
-  position: relative;
+  height: 100%;
 }
 
-.bg2 {
-  background: url('bg-image.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 1000px;
-  background-repeat: no-repeat;
-  position: relative;
-  padding-top: 0px;
-}
+
 
 .text-hero {
-  color: #f3f3f3;
-  padding-top: 300px;
+  color: #00a2ff;
+  filter: drop-shadow(15px 10px 4px #2b4250);
+  padding-top: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Bree Serif', 'Times New Roman', Times, serif;
+  font-weight: bolder;
 }
 
 .name {
@@ -51,8 +50,6 @@ footer {
   border-top: 3px solid #A8C3B9;
 }
 
-.abm-hd {
-}
 
 .abm-box {
   background-color: #f3f3f3;
@@ -81,6 +78,20 @@ footer {
 
 .pd-body {
   padding: 10px;
+}
+
+.contactcard {
+  width: auto;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #fefefe;
+  border: 3px solid #A8C3B9;
+  border-radius: 5px;
+}
+
+.bree {
+  font-family: 'Bree Serif', 'Times New Roman', Times, serif;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 744px) {
