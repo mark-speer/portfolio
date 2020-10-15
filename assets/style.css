@@ -2,7 +2,9 @@ body, html {
   height: 100%;
 }
 
-
+.resume {
+  margin-top: 15px;
+}
 
 .navbar {
   background-color: #00a2ff !important;
